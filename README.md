@@ -123,7 +123,7 @@ $ python main.py wave
 
 3. Use play-testing wth your partner to guide your development.
 
-4. Use tests to verify your functions after thoroughly play-testing. See instructions for running tests in the section below.
+4. Use tests to verify your functions after thoroughly play-testing. See instructions for running tests in the section below. *A complete set of unit tests is provided for this project.*
 
 5. Use git to commit your work regularly!  Commit between each wave.
 
