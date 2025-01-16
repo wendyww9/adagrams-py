@@ -1,3 +1,5 @@
+from random import randint
+
 def draw_letters():
     pass
 
