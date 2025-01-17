@@ -166,6 +166,18 @@ Take time to read through the Wave 1 implementation requirements and the tests f
 
 If, after you have taken some time to think through the problem and would like direction for how to dissect the problem, or if you need clarity on the terms/vocabulary we used in this project, you can check out [a small hint we've provided](./project_docs/hints.md).
 
+### A Note About `random`, Libraries, and Built-In Methods
+
+👀 **Please review this section carefully** 👀
+
+We include an import statement in `game.py` which imports the [`randint`](https://docs.python.org/3/library/random.html#random.randint) function from the `random` module. **Do not change this import statement.** You may only use the `randint` function from the `random` module. 
+
+As this is our first project and we're familiarizing ourselves with Python, the more code that we write, the more practice we get, both with syntax, and with thinking about how to approach the problem. In the near future, with more practice and time spent coding we will permit the use of library functions. All of the wave requirements for this project can be achieved without any of the other `random` methods, like `sample`, `choice`, or `select`.
+
+Additionally, there are helper methods in the "built-in" scope, such as `max`, which we ask you to refrain from using in this project too. However, methods on collections that are necessary for adding, removing, or iterating of data are fine to use. There's really no other way for you to work with data in collections than to use their supplied methods. 
+
+Implement as much as possible on your own for the version you submit for review. This won't be our recommendation forever, but especially early in the program, the more logic you plan out, and the more code you challenge yourself to write, the stronger a foundation you'll be building for yourself. If you do still want to try out those other functions, you can always make another copy of the project to play around with to get even more practice! But please do not include them in your submitted version.
+
 ### Wave 1: draw_letters
 
 Your first task is to build a hand of 10 letters for the user. To do so, implement the function `draw_letters` in `game.py`. This method should have the following properties:
