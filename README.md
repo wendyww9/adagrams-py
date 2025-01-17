@@ -176,7 +176,7 @@ As this is our first project and we're familiarizing ourselves with Python, the 
 
 Additionally, there are helper methods in the "built-in" scope, such as `max`, which we ask you to refrain from using in this project too. However, methods on collections that are necessary for adding, removing, or iterating of data are fine to use. There's really no other way for you to work with data in collections than to use their supplied methods. 
 
-Implement as much as possible on your own for the version you submit for review. This won't be our recommendation forever, but especially early in the program, the more code you write, and the more logic you challenge yourself to plan out, the stronger a foundation you'll be building for yourself. If you do still want to try out those other functions, you can always make another copy of the project to play around with to get even more practice! 
+Implement as much as possible on your own for the version you submit for review. This won't be our recommendation forever, but especially early in the program, the more logic you plan out, and the more code you challenge yourself to write, the stronger a foundation you'll be building for yourself. If you do still want to try out those other functions, you can always make another copy of the project to play around with to get even more practice! But please do not include them in your submitted version.
 
 ### Wave 1: draw_letters
 
