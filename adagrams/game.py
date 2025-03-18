@@ -86,7 +86,3 @@ def get_highest_word_score(word_list):
 
     return best_word
 
-
-
-word_list = ['aaaaaaaaaa','BBBBBB']
-print(get_highest_word_score(word_list))
